@@ -14,7 +14,7 @@ No installation needed. Everything runs in your browser.
 |---|---|
 | Profile nameT-SQL | Bootcamp DB|
 | Server | `db` |
-|AuthenticationSQL | Login|
+|Authentication | SQL Login|
 | Database | `BootcampDB` |
 | Username | `sa` |
 | Password | `Bootcamp123!` |
