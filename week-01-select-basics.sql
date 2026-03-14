@@ -13,7 +13,7 @@ GO
 -- -----------------------------------------------
 -- Task: Select everything from the Patients table
 -- YOUR ANSWER:
-
+ SELECT * FROM Patients;
 
 -- -----------------------------------------------
 -- EXERCISE 2: Specific columns

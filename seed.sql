@@ -62,7 +62,7 @@ GO
 -- =============================================
 
 INSERT INTO Wards (WardName, WardType, Capacity, Site) VALUES
-('Ward A - General Medical',    'Medical',   28, 'Main Hospital'),
+('Ward A - General Medical',    'Medical',   28, NULL),
 ('Ward B - Cardiology',         'Medical',   20, 'Main Hospital'),
 ('Ward C - Surgical',           'Surgical',  24, 'Main Hospital'),
 ('Virtual Ward - Respiratory',  'Virtual',   50, 'Community'),
