@@ -31,6 +31,11 @@ sudo ACCEPT_EULA=Y apt-get install -y mssql-tools18 unixodbc-dev && \
 /opt/mssql-tools18/bin/sqlcmd -S db -U sa -P 'Bootcamp123!' -C -i /workspaces/The-AI-Workshop-Bootcamp/seed.sql
 ```
 
+
+## To sync your database with the latest tutor version, run this in the terminal:
+```bash
+/opt/mssql-tools18/bin/sqlcmd -S db -U sa -P 'Bootcamp123!' -C -i /workspaces/The-AI-Workshop-Bootcamp/seed.sql
+```
 ##  Tips
 - Stop your Codespace at **github.com/codespaces** after each session to save free hours
 - Free tier = 60 hours/month — plenty for a weekly bootcamp
