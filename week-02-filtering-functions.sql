@@ -13,6 +13,9 @@ GO
 -- Hint: Use DATEDIFF(YEAR, DateOfBirth, GETDATE())
 -- YOUR ANSWER:
 
+SELECT FirstName, LastName,
+  DATEDIFF(YEAR, DateOfBirth, GETDATE()) AS Age
+FROM Patients;
 
 -- -----------------------------------------------
 -- EXERCISE 2: Filter by age
@@ -20,6 +23,10 @@ GO
 -- Task: Find all patients over 70 years old
 -- YOUR ANSWER:
 
+SELECT *
+  FROM patients
+  WHERE DATEDIFF(year, DateOfBirth, GETDATE()) > 70;
+  
 
 -- -----------------------------------------------
 -- EXERCISE 3: NULL handling
