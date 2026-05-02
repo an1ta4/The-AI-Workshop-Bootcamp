@@ -53,62 +53,63 @@ Press Ctrl+W to close it
 
 
 ---
-## Topics;
 
-**Week 1** — Orientation
-• Program introduction
-• Development setup with GitHub Codespaces
-• Team formation and collaboration
+# SQL & AI Bootcamp — Week-by-Week Curriculum
 
-**Week 2** — Databases & the SQL Landscape
-• Database fundamentals
-• Understanding metadata
-• The role of SQL in modern data ecosystems
+## Week 1 — Orientation | Saturday, March 21, 2026
+- Program introduction
+- Development setup with GitHub Codespaces
+- Team formation and collaboration
 
-**Week 3** — SQL Foundations I
-• Core SQL syntax
-• Writing basic queries
-• Using AI as a learning and query-writing assistant
+## Week 2 — Databases & the SQL Landscape | Saturday, March 28, 2026
+- Database fundamentals
+- Understanding metadata
+- The role of SQL in modern data ecosystems
 
-**Week 4** — SQL Foundations II
-• Advanced query patterns
-• Deeper practice with AI-assisted SQL workflows
+## Week 3 — SQL Foundations I | Saturday, April 4, 2026
+- Core SQL syntax
+- Writing basic queries
+- Using AI as a learning and query-writing assistant
 
-**Week 5** — Aggregation & Grouping
-• GROUP BY, aggregations, and summary analytics
-• AI support for query optimization
+## Week 4 — SQL Foundations II | Saturday, April 11, 2026
+- Advanced query patterns
+- Deeper practice with AI-assisted SQL workflows
 
-**Week 6** — Filtering Data
-• WHERE, HAVING, and filtering strategies
-• Building precise analytical queries
+## Week 5 — Aggregation & Grouping | Saturday, April 18, 2026
+- GROUP BY, aggregations, and summary analytics
+- AI support for query optimization
 
-**Week 7** — Conditional Logic
-• CASE statements
-• Transforming and categorizing data
+## Week 6 — Filtering Data | Saturday, April 25, 2026
+- WHERE, HAVING, and filtering strategies
+- Building precise analytical queries
 
-**Week 8** — Joins
-• Inner, left, and multi-table joins
-• Combining datasets effectively with AI support
+## Week 7 — Conditional Logic | Saturday, May 2, 2026 ✓ CURRENT
+- CASE statements
+- Transforming and categorizing data
 
-**Week 9** — Subqueries & CTEs
-• Nested queries
-• Common Table Expressions for modular SQL
+## Week 8 — Joins | Saturday, May 9, 2026
+- Inner, left, and multi-table joins
+- Combining datasets effectively with AI support
 
-**Week 10** — Introduction to Data Profiling
-• Understanding data distributions
-• Detecting anomalies and patterns
+## Week 9 — Subqueries & CTEs | Saturday, May 16, 2026
+- Nested queries
+- Common Table Expressions for modular SQL
 
-**Week 11** — Profiling for Data Quality
-• Identifying missing values, duplicates, and inconsistencies
-• Establishing data quality checks
+## Week 10 — Introduction to Data Profiling | Saturday, May 23, 2026
+- Understanding data distributions
+- Detecting anomalies and patterns
 
-**Week 12** — Window Functions
-• Ranking, running totals, and advanced analytics
+## Week 11 — Profiling for Data Quality | Saturday, May 30, 2026
+- Identifying missing values, duplicates, and inconsistencies
+- Establishing data quality checks
 
-**Week 13** — AI for Test & Validation Scripts
-• Automating SQL tests
-• Using AI to generate validation checks
+## Week 12 — Window Functions | Saturday, June 6, 2026
+- Ranking, running totals, and advanced analytics
 
-**Week 14** — AI for Query Reports & Documentation
-• Generating report documentation using AI
-• Creating explainable analytics workflows
+## Week 13 — AI for Test & Validation Scripts | Saturday, June 13, 2026
+- Automating SQL tests
+- Using AI to generate validation checks
+
+## Week 14 — AI for Query Reports & Documentation | Saturday, June 20, 2026
+- Generating report documentation using AI
+- Creating explainable analytics workflows

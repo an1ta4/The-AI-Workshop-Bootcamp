@@ -29,7 +29,12 @@ SELECT FirstName, LastName, DateOfBirth FROM Patients WHERE DATEDIFF(YEAR, DateO
 -- YOUR ANSWER:
 SELECT * FROM Admissions WHERE DischargeDate IS NULL;
 
+-- SELECT TOP 10 *
+-- FROM patients;
 
+SELECT *
+FROM Admissions
+WHERE DischargeDate IS NULL;
 -- -----------------------------------------------
 -- EXERCISE 4: COUNT
 -- -----------------------------------------------
@@ -51,7 +56,7 @@ SELECT COUNT(*) AS Total FROM Patients;
 SELECT AdmissionType, COUNT(*) AS "Total" FROM Admissions GROUP BY AdmissionType;
 
 -- -----------------------------------------------
--- EXERCISE 7: HAVING
+-- EXERCISE 7: HAVING)
 -- -----------------------------------------------
 -- Task: Which GPs have more than 2 registered patients?
 -- YOUR ANSWER:
@@ -65,6 +70,10 @@ SELECT RegisteredGP, COUNT(*) AS "Number of patients" FROM Patients GROUP BY Reg
 -- Show: AdmissionID, Diagnosis, and LengthOfStayDays
 -- YOUR ANSWER:
 
+SELECT AdmissionID, Diagnosis,
+    DATEDIFF(DAY, AdmissionDate, DischargeDate) AS LengthOfStayDays
+  FROM Admissions
+  WHERE DischargeDate IS NOT NULL;
 
 -- =============================================
 -- ANSWERS
