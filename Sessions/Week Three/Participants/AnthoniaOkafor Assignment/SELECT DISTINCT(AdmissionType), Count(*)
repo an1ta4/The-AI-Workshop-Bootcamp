@@ -6,4 +6,4 @@ then return only the unique admission types
 
 SELECT DISTINCT(AdmissionType), Count(*)
 FROM [BootcampDB].[dbo].[Admissions]
-GROUP BY AdmissionType, Diagnosis;s
+GROUP BY AdmissionType, Diagnosis;
